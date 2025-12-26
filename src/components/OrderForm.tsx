@@ -109,7 +109,7 @@ export default function OrderForm() {
              <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-bold mb-2" htmlFor="yourName">Your Name</label>
-                  <input required type="text" id="yourName" name="yourName" value={formData.yourName} onChange={handleChange} className="w-full p-3 border border-mauve-light rounded focus:outline-none focus:border-mauve-dark" placeholder="John Doe"/>
+                  <input required type="text" id="yourName" name="yourName" value={formData.yourName} onChange={handleChange} className="w-full p-3 border border-mauve-light rounded focus:outline-none focus:border-mauve-dark"/>
                 </div>
                 
                 <div>
@@ -122,7 +122,6 @@ export default function OrderForm() {
                     value={formData.clientMobile} 
                     onChange={handleChange} 
                     className="w-full p-3 border border-mauve-light rounded focus:outline-none focus:border-mauve-dark" 
-                    placeholder="9876543210"
                     maxLength={10} 
                   />
                   <p className="text-xs text-ink/50 mt-1">Exactly 10 digits required</p>
@@ -145,7 +144,7 @@ export default function OrderForm() {
             
             <div>
               <label className="block text-sm font-bold mb-2" htmlFor="recipientName">Their Name (The recipient)</label>
-              <input required type="text" id="recipientName" name="recipientName" value={formData.recipientName} onChange={handleChange} className="w-full p-3 border border-mauve-light rounded focus:outline-none focus:border-mauve-dark" placeholder="Jane Doe"/>
+              <input required type="text" id="recipientName" name="recipientName" value={formData.recipientName} onChange={handleChange} className="w-full p-3 border border-mauve-light rounded focus:outline-none focus:border-mauve-dark" placeholder="Your Soulmate Name"/>
             </div>
 
             <div>

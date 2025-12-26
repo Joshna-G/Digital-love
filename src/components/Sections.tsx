@@ -96,7 +96,9 @@ export function Navbar() {
     return (
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm py-4">
         <div className="container mx-auto px-6 flex justify-between items-center">
-          <div className="text-xl font-serif font-bold text-mauve-dark">Digital Love</div>
+         <div className="flex items-center gap-2 cursor-pointer">
+          <span className="text-2xl font-bold text-mauve">∞</span>
+          <span className="text-xl font-serif font-semibold tracking-wide text-mauve-dark"> Digitial <span className="text-mauve">Love</span> </span></div>
           <div className="hidden md:flex space-x-8 text-sm font-medium text-ink/70">
             <a href="#how-it-works" className="hover:text-mauve transition">How it Works</a>
             <a href="#pricing" className="hover:text-mauve transition">Pricing</a>
