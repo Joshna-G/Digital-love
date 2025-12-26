@@ -82,6 +82,7 @@ export function Description() {
 export function DemoLink() {
   return (
     <section className="py-16 bg-ink text-paper text-center">
+       <meta name="google-adsense-account" content="ca-pub-7679235699554731"></meta>
       <div className="container mx-auto px-6">
         <h2 className="text-2xl md:text-3xl mb-6 text-white">Want to see what a gifted site looks like?</h2>
         <Link href="https://love-do.vercel.app/" target="_blank" className="inline-flex items-center px-8 py-4 bg-mauve text-white font-bold rounded hover:bg-mauve-light transition-colors">

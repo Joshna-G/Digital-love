@@ -5,6 +5,7 @@ import OrderForm from "@/components/OrderForm";
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <meta name="google-adsense-account" content="ca-pub-7679235699554731"></meta>
       <Navbar />
       <Hero />
       <Procedure />

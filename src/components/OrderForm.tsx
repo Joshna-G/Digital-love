@@ -86,6 +86,7 @@ export default function OrderForm() {
 
   return (
     <section id="order" className="py-20 bg-mauve text-white relative overflow-hidden">
+       <meta name="google-adsense-account" content="ca-pub-7679235699554731"></meta>
       <div className="absolute inset-0 bg-mauve/20 mix-blend-overlay pointer-events-none"></div>
 
       <div className="container mx-auto px-6 relative z-10 max-w-2xl text-center">

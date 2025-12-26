@@ -1,6 +1,7 @@
 export default function Pricing() {
   return (
     <section id="pricing" className="py-20 bg-paper">
+       <meta name="google-adsense-account" content="ca-pub-7679235699554731"></meta>
       <div className="container mx-auto px-6 max-w-5xl text-center">
         <h2 className="text-4xl md:text-5xl mb-4 text-mauve-dark">Pricing Combos</h2>
         <p className="text-lg text-ink/70 mb-16 max-w-2xl mx-auto">Transparent pricing for a priceless gift. Choose the tier that fits best.</p>
