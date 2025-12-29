@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-  title: "Gift a Website",
+  title: "Gift a Digital Space",
   description: "Create a unique digital space for your favorite person.",
 };
 

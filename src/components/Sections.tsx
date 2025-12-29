@@ -85,9 +85,15 @@ export function DemoLink() {
        <meta name="google-adsense-account" content="ca-pub-7679235699554731"></meta>
       <div className="container mx-auto px-6">
         <h2 className="text-2xl md:text-3xl mb-6 text-white">Want to see what a gifted site looks like?</h2>
-        <Link href="https://love-do.vercel.app/" target="_blank" className="inline-flex items-center px-8 py-4 bg-mauve text-white font-bold rounded hover:bg-mauve-light transition-colors">
-          View A Live Demo Project <span className="ml-2">→</span>
+        <p className="text-lg text-white/70 mb-16">Check out these live demo projects we've created as examples.</p>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+        <Link href="https://joe-digitial-work.vercel.app/" target="_blank" className="inline-flex items-center px-8 py-4 bg-mauve text-white font-bold rounded hover:bg-mauve-light transition-colors">
+           Digital Wedding e-Invite <span className="ml-2">→</span>
         </Link>
+         <Link href="https://love-do.vercel.app/" target="_blank" className="inline-flex items-center px-8 py-4 bg-mauve text-white font-bold rounded hover:bg-mauve-light transition-colors">
+          Gift of Digital Space <span className="ml-2">→</span>
+        </Link>
+        </div>
       </div>
     </section>
   );

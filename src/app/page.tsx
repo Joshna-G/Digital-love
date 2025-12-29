@@ -15,7 +15,7 @@ export default function Home() {
       <OrderForm />
       
       <footer className="py-8 text-center text-ink/60 text-sm bg-paper">
-        <p>© {new Date().getFullYear()} Digital Love. Made with love.</p>
+        <p>© {new Date().getFullYear()} Digital Love. Made By <a href="https://github.com/Joshna-G" className="text-mauve hover:underline"> Joe.♡</a></p>
       </footer>
     </main>
   );
