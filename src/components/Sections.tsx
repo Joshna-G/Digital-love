@@ -109,6 +109,7 @@ export function Navbar() {
           <div className="hidden md:flex space-x-8 text-sm font-medium text-ink/70">
             <a href="#how-it-works" className="hover:text-mauve transition">How it Works</a>
             <a href="#pricing" className="hover:text-mauve transition">Pricing</a>
+            <Link href="/privacy-policy" className="hover:text-mauve transition hidden md:block"> Privacy Policy </Link>
             <a href="#order" className="hover:text-mauve transition">Book Now</a>
           </div>
         </div>
